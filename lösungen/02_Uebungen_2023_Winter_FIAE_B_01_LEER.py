@@ -15,7 +15,7 @@ test = liste[0:1]
 print(test)
 
 welche ist die Antwort?
-a) ['Apfel']
+a) ['Apfel']    ANTWORT
 b) ['Banane']
 c) ['Kiwi']
 # In[ ]:
@@ -30,17 +30,19 @@ c) ['Kiwi']
 # Übung 12
 
 
-# In[45]:
+# In[1]:
 
 
+# INDEX    -3        -2      -1
 liste = ['Apfel', 'Banane','Kiwi']
+
 test1 = liste[-1:]
 print(test1)
 
 welche ist die Antwort?
 a) ['Apfel']
 b) ['Banane']
-c) ['Kiwi']
+c) ['Kiwi']   ANTWORT
 # In[ ]:
 
 
@@ -84,11 +86,11 @@ c) 4
 # Übung 14
 
 
-# In[6]:
+# In[1]:
 
 
-def f(v):       
-    v[0] = 2       
+def f(v):    # v = [4, 5, 6]      
+    v[0] = 2 # v = [2, 5, 6]           
     print(v)   
 
 a = [4, 5, 6]
@@ -97,7 +99,7 @@ f(a)
 welche ist die Antwort?
 a) [4, 5, 6]
 b) [4, 2, 6]
-c) [2, 5, 6]
+c) [2, 5, 6]  ANTWORT
 # In[ ]:
 
 
@@ -113,13 +115,13 @@ c) [2, 5, 6]
 # In[8]:
 
 
-def inkrementieren(a, b=1):       
+def inkrementieren(a, b=1):  # Schritt 2  # b = 1 Standardwert  a = 3 , b = 0 
     return a+b
 
-print(inkrementieren(3,0))
+print(inkrementieren(3,0))   # Schritt 1
 
 welche ist die Antwort?
-a) 3
+a) 3 ANTWORT
 b) 4
 c) 5
 # In[ ]:
@@ -144,7 +146,7 @@ print(inkrementieren(3))
 
 welche ist die Antwort?
 a) 31
-b) 4
+b) 4              ANTWORT
 c) keine Antwort
 # In[ ]:
 
@@ -170,7 +172,7 @@ sterne()
 welche ist die Antwort?
 a) *****
 
-b) *****
+b) *****    ANTWORT
    *****
 
 c)*****
@@ -191,14 +193,14 @@ c)*****
 # In[20]:
 
 
-def sagen(a='hallo', b='tschüss'):       
+def sagen(a='hallo', b='tschüss'):  # Standardwert     
     print(a + ' und ' + b)   
 
 sagen(b='adeu', a='wie geht es')
 
 welche ist die Antwort?
 a) hallo und tschüss
-b) wie geht es und adeu
+b) wie geht es und adeu     ANTWORT
 c) adeu und wie geht es
 # In[ ]:
 
@@ -231,7 +233,7 @@ preis = float(relation[code] * menge)-10
 print ("Insgesamt: $", preis)
 
 Wie viel ist der Preis insgesamt?
-a) Insgesamt: $ 95.0
+a) Insgesamt: $ 95.0   ANTWORT
 b) Insgesamt: $ 105.0
 c) Insgesamt: $ 115.0
 # In[ ]:
@@ -246,7 +248,7 @@ c) Insgesamt: $ 115.0
 # Übung 20
 
 
-# In[26]:
+# In[2]:
 
 
 p_dic = {'nombre':'Calico', 'edad':25}   
@@ -256,7 +258,7 @@ print(p_dic)
 welche ist die Antwort?
 a) {'nombre': 'Calico', 'edad': 24}
 b) {'nombre': 'Calico', 'edad': 25}
-c) {'nombre': 'Calico', 'edad': 26}
+c) {'nombre': 'Calico', 'edad': 26}  ANTWORT
 # In[ ]:
 
 
